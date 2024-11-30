@@ -14,7 +14,7 @@ app.use('/api/tour',tourRouter)
 app.get('/',(req:Request,res:Response)=>{
     res.send({
         status:true,
-        message:"Server Is Running Port 5000"
+        message:"Server Is Running Port vercel"
         })
 })
 
